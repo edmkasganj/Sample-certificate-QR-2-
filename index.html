@@ -38,7 +38,7 @@
 
       const formData = Object.fromEntries(new FormData(form).entries());
       try {
-        const res = await fetch('https://script.google.com/macros/s/AKfycbyjB3_8cpJexNCO7p_lGlVHuSqRfkKUQVTZWViZCZMobucW5pXD1Rcv_J0sJBTog1AF/exec', {  // <-- Paste your deployed Apps Script URL here
+        const res = await fetch('https://script.google.com/macros/s/AKfycbz5ZaMFxhUDo-doRmTGF9gkkpPWQmWWvZjSFWyLf6xp9a1gro4CN3A6KhJgcGSvV2fU2A/exec', {  // <-- Paste your deployed Apps Script URL here
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
@@ -63,4 +63,5 @@
   </script>
 </body>
 </html>
+
 
